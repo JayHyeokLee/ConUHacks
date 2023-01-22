@@ -8,11 +8,7 @@ export const GlobalStyle = createGlobalStyle`
         text-decoration: none;
         box-sizing: border-box;
     }
-    h1 {
-        font-size: 1.5em;
-        font-family: -Arial;
-
-    }
+   
     body {
         font-size: 16px;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;

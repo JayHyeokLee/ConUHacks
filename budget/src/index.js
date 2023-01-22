@@ -11,6 +11,7 @@ import LogIn from './pages/LogIn.js';
 import SignUp from './pages/SignUp.js';
 import Registration from './pages/Registration.js';
 import { GlobalStyle } from './reset.css';
+import Suggestions from './pages/Suggestions';
 
 
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <LogIn/>,
+  },
+  {
+    path: "/suggestions",
+    element: <Suggestions/>,
   },
   {
     path: "/registration",
