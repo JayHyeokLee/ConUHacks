@@ -7,6 +7,7 @@ import InputGroup from '../components/InputGroup';
 import Input from '../components/Input';
 import Button from '../components/Button';
 import './HomePage.css';
+import Table from '../components/Table'
 
 const HomePage = () => {
     return (
@@ -20,9 +21,7 @@ const HomePage = () => {
                 <h2>Total Savings</h2>
                 <textb>2000$</textb>
             </EntryCard>
-            <box>
-                <textb>HELLO</textb>    
-            </box>        
+            <Table></Table>       
         </EntryPage>
     );
 }
