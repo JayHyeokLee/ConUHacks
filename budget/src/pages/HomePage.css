@@ -4,3 +4,16 @@
     border: 3px solid #73AD21;
     padding: 10px;
   }
+  table {
+    border: 2px solid forestgreen;
+    width: 800px;
+    height: 200px;
+  }
+    
+  th {
+    border-bottom: 1px solid black;
+  }
+    
+  td {
+    text-align: center;
+  }
