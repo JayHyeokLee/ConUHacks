@@ -9,6 +9,8 @@ import {
 import HomePage from './pages/HomePage.js';
 import LogIn from './pages/LogIn.js';
 import SignUp from './pages/SignUp.js';
+import Settings from './pages/Settings';
+import Suggestions from './pages/Suggestions';
 import Registration from './pages/Registration.js';
 import { GlobalStyle } from './reset.css';
 
