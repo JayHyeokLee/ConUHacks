@@ -10,6 +10,8 @@ import HomePage from './pages/HomePage.js';
 import LogIn from './pages/LogIn.js';
 import SignUp from './pages/SignUp.js';
 import { GlobalStyle } from './reset.css';
+import Setting from './pages/Settings.js';
+import Settings from './pages/Settings.js';
 
 
 const router = createBrowserRouter([
@@ -24,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <LogIn/>,
+  },
+  {
+    path: "/settings",
+    element: <Settings/>,
   },
 ]);
 

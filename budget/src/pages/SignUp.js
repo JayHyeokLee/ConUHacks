@@ -26,7 +26,9 @@ const SignUp = () => {
                         <label htmlFor="signup-password">Password</label>
                         <Input type="password" placeholder="Password" id="signup-password" />
                     </InputGroup>
-                    <Button type="submit" full>Sign up</Button>
+                    <Button type="submit" full>
+                        <Link to="/">Sign Up</Link>
+                    </Button>
                 </form>
                 <span>
                     Already have an account?

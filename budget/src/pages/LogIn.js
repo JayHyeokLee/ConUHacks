@@ -22,7 +22,9 @@ const LogIn = () => {
                         <label htmlFor="login-password">Password</label>
                         <Input type="password" placeholder="Password" id="login-password" />
                     </InputGroup>
-                    <Button type="submit" full>Log in</Button>
+                    <Button type="submit" full>
+                        <Link to="/">Log In</Link>
+                    </Button>
                 </form>
                 <span>
                     Don't have an account?
