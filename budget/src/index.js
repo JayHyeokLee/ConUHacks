@@ -9,6 +9,7 @@ import {
 import HomePage from './pages/HomePage.js';
 import LogIn from './pages/LogIn.js';
 import SignUp from './pages/SignUp.js';
+import Registration from './pages/Registration.js';
 import { GlobalStyle } from './reset.css';
 
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
     path: "/login",
     element: <LogIn/>,
   },
+  {
+    path: "/registration",
+    element: <Registration/>,
+  }
 ]);
 
 ReactDOM.render(
