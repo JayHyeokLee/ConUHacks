@@ -11,10 +11,17 @@ const HomePage = () => {
     return (
         <EntryPage>
             <Navbar />
-            <PageHeader to="/">ENTER CARD INFORMATION HERE</PageHeader>
+            <PageHeader>Start Saving Without Sacrificing your Lifestyle</PageHeader>
             <EntryCard>
                 <h2>Pie Chart</h2>
-            </EntryCard>           
+            </EntryCard> 
+            <EntryCard>
+                <h2>Total Savings</h2>
+                <textb>2000$</textb>
+            </EntryCard>
+            <div>
+                <textb>HELLO</textb>    
+            </div>        
         </EntryPage>
     );
 }

@@ -10,7 +10,7 @@ import Button from '../components/Button';
 const LogIn = () => {
     return (
         <EntryPage>
-            <PageHeader to="/">PLACE ANYTHING HERE</PageHeader>
+            <PageHeader to="/">HOME</PageHeader>
             <EntryCard>
                 <h2>Log In</h2>
                 <form onSubmit={(e) => e.preventDefault()}>
