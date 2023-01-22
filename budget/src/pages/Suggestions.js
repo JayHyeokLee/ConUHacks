@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import Selection from "../components/Selection";
 import React, { Component } from 'react';
 import { Map, GoogleApiWrapper } from 'google-maps-react';
 
@@ -17,6 +18,7 @@ export class MapContainer extends Component {
     return (
       <>
       <Navbar></Navbar>
+      <Selection></Selection>
       <Map
         google={this.props.google}
         zoom={14}
