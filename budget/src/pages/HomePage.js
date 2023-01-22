@@ -6,6 +6,7 @@ import EntryCard from '../components/EntryCard';
 import InputGroup from '../components/InputGroup';
 import Input from '../components/Input';
 import Button from '../components/Button';
+import './HomePage.css';
 
 const HomePage = () => {
     return (
@@ -19,9 +20,9 @@ const HomePage = () => {
                 <h2>Total Savings</h2>
                 <textb>2000$</textb>
             </EntryCard>
-            <div>
+            <box>
                 <textb>HELLO</textb>    
-            </div>        
+            </box>        
         </EntryPage>
     );
 }
